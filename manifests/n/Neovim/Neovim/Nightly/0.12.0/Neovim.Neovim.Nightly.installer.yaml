@@ -1,4 +1,4 @@
-# Automatically updated by the winget bot at 2025/May/21
+# Automatically updated by the winget bot at 2025/May/30
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
 
 PackageIdentifier: Neovim.Neovim.Nightly
@@ -12,7 +12,7 @@ AppsAndFeaturesEntries:
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/neovim/neovim/releases/download/nightly/nvim-win64.msi
-  InstallerSha256: 01E25F86A7C8777E1D1842431DF65C2C622A3A4E6D3188DF6A47F1EFD049C605
-  ProductCode: '{706A3055-2C91-439E-97D2-736067A57730}'
+  InstallerSha256: BF9A36671589FFB4F971902313BA4177BE87933997A2CBDB3167FF91118CD99A
+  ProductCode: '{19EC50B5-EAA7-421A-A2A1-D2146C241A9C}'
 ManifestType: installer
 ManifestVersion: 1.10.0

@@ -1,0 +1,23 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: KDE.Ruqola
+PackageVersion: 2.5.1
+InstallerType: nullsoft
+UpgradeBehavior: install
+ProductCode: Ruqola
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/ruqola/2.5/windows/ruqola-2.5-11143-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 3BE9E4BC8694DCD5B8E9A785BF0FFAA0932957A27A8A8ADDF631510C04A7DAD0
+  InstallerSwitches:
+    Custom: /CurrentUser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/ruqola/2.5/windows/ruqola-2.5-11143-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 3BE9E4BC8694DCD5B8E9A785BF0FFAA0932957A27A8A8ADDF631510C04A7DAD0
+  InstallerSwitches:
+    Custom: /AllUsers
+ManifestType: installer
+ManifestVersion: 1.10.0
